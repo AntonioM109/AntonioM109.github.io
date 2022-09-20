@@ -95,6 +95,7 @@ ul, ol {
   padding: 0;
   padding-bottom: 2vh;
   list-style-position: outside;
+  justify-content: center;
 }
 
 ul {
