@@ -25,6 +25,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   flex: 1;
+  font-size: 20px;
 }
 
 
@@ -76,19 +77,6 @@ body {
   font-family: 'Oswald';
 }
 
-/* 
-.theme {
-  text-align: center;
-  background-color: rgb(35, 37, 43);
-  color: rgb(216, 216, 216);
-}
-
-.daylight-mode {
-  background-color: rgb(216, 216, 216);
-  color: rgb(35, 37, 43);
-} */
-
-/* about_me.html */
 
 ul, ol {
   display: flex;
@@ -118,7 +106,6 @@ li {
   padding: 2vh;
 }
 
-/* recipe.html */
 img {
   border-radius: 30px;
 }
