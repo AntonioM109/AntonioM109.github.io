@@ -17,13 +17,6 @@ body {
   flex-direction: column;
 }
 
-.navbar a {
-  padding: 12px;
-  text-decoration: none;
-  font-size:17px;
-  text-align: center;
-}
-
 .page {
   display: flex;
   flex-direction: column;
