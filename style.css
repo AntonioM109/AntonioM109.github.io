@@ -68,7 +68,7 @@ body {
 
 .footer {
   display: flex;
-  margin-top: -200px;
+  height: 60px;
   justify-content: space-around;
   font-family: 'Oswald';
 }
