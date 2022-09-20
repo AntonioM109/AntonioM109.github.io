@@ -108,7 +108,7 @@ ul {
   text-align: left; 
 }
 
-.main-paragraph li span {
+li {
   position: relative; 
   left: -5px; 
 }
