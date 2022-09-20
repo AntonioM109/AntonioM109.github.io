@@ -51,7 +51,7 @@ body {
 
 .site-links {
   color: rgb(216, 216, 216);
-  font-family: 'Oswald';
+  font-family: sans-serif;
   padding: 1px 3vh;
   text-align: center;
   text-decoration: none;
@@ -70,7 +70,7 @@ body {
   display: flex;
   height: 38px;
   justify-content: space-around;
-  font-family: 'Oswald';
+  font-family: sans-serif;
 }
 
 /* 
