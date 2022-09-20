@@ -108,7 +108,7 @@ ul {
   text-align: left; 
 }
 
-.li span {
+.price-features li span {
   position: relative; 
   left: -5px; 
 }
