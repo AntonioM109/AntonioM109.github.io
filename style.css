@@ -108,6 +108,11 @@ ul {
   text-align: left; 
 }
 
+.li span {
+  position: relative; 
+  left: -5px; 
+}
+
 .quote {
   background-color: rgb(51, 53, 58);
   padding: 2vh;
