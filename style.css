@@ -43,6 +43,8 @@ body {
 .main-paragraph {
   padding-left: 8vh;
   padding-right: 8vh;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .TOP-link {
