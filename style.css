@@ -106,8 +106,8 @@ ul {
 }
 
 /* recipe.html */
-img {
-  border-radius: 50%;
+img.rounded-corners {
+  border-radius: 30px;
 }
 
 h3 {
