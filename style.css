@@ -87,7 +87,7 @@ body {
 
 /* about_me.html */
 
-ul, ol {
+ol {
   display: flex;
   flex-direction: column;
   margin: 0;
