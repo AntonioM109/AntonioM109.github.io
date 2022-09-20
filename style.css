@@ -97,11 +97,8 @@ ol {
 }
 
 ul {
-  text-align: center;
-}
-
-li {
-  display: inline-block;
+  display: table;
+  margin: 0 auto;
 }
 
 .quote {
