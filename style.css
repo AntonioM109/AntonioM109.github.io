@@ -98,7 +98,10 @@ ul, ol {
 
 ul {
   text-align: center;
-  list-style: inside;
+}
+
+li {
+  display: inline-block;
 }
 
 .quote {
