@@ -32,7 +32,7 @@ body {
 
 .greeting {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: sans-serif;
   text-transform: uppercase;
   color: rgb(172, 148, 129);
   font-size: 48px;
