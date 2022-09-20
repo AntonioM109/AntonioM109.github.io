@@ -105,7 +105,7 @@ ul {
   text-align: left; 
 }
 
-li span {
+li.span {
   position: relative;
   left: -4px;
 }
