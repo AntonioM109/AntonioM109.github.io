@@ -88,18 +88,17 @@ body {
 /* about_me.html */
 
 ul, ol {
-  text-align: center;
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   padding-bottom: 2vh;
-  list-style-position: outside;
-  justify-content: center;
+  list-style-position: inside;
 }
 
 ul {
-  list-style: none;
+  text-align: center;
+  list-style: inside;
 }
 
 .quote {
