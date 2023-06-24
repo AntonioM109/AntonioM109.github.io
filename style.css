@@ -5,16 +5,16 @@
 
 /* overall theme for all pages */
 body {
-  background-color: rgb(35, 37, 43);
-  color: rgb(216, 216, 216);
+  background-color: rgb(0, 0, 0); /*Color de Fondo*/
+  color: rgb(240,248,255);
   font-family: sans-serif;
   font-size: 16px;
   text-align: center;
   padding: 0px;
   margin-top: 10px;  
   margin-bottom: none;  
-  margin-right: none;  
-  margin-left: none;  
+  margin-right: 20px;  
+  margin-left: 20px;  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,8 +37,8 @@ body {
   margin: 0;
   font-family: sans-serif;
   text-transform: uppercase;
-  color: rgb(172, 148, 129);
-  font-size: 48px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
   padding-bottom: 2vh;
 }
 
@@ -49,11 +49,11 @@ body {
 
 .TOP-link {
   text-decoration: none;
-  color: rgb(172, 148, 129);
+  color: rgb(149, 196, 196);
 }
 
 .site-links {
-  color: rgb(216, 216, 216);
+  color: rgb(255, 255, 255);
   font-family: 'Oswald';
   padding: 1px 3vh;
   text-align: center;
@@ -106,4 +106,29 @@ img {
 
 h3 {
   font-size: 20px;
+}
+
+
+
+.paragraph-container {
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.paragraph-container p {
+  text-align: justify; /* Justifica el texto dentro del párrafo */
+  margin-bottom: 10px; /* Ajusta el espacio entre párrafos según tus necesidades */
+}
+
+.aumentar-tamano {
+  font-size: 18px; /* Tamaño de letra deseado */
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+
+.main-content.left-align {
+  text-align: left; /* Alineación a la izquierda para el elemento específico */
+  max-width: 600px; /* Ancho máximo deseado */
+  margin-left: auto; /* Para centrar el contenido en caso de que la pantalla sea más ancha que el ancho máximo */
+  margin-right: auto;
 }
