@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== EMAIL SERVICE ====================-->
+        <!-- Sweet Alert -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <!-- Email.JS -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                emailjs.init('gF3M_-jS8KuvoCpV4');
+            })();
+        </script>
+
+        <!--==================== CALENDAR SERVICE ====================-->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+        <!--==================== TITLE and Favicon ====================-->
+        <title>Antonio Martínez - Resume - Portafolio</title>
+        <!-- <link rel="shortcut icon" type="image/png" href="assets/img/"> --> 
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon_io/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+
+        <!-- MS Tile - for Microsoft apps-->
+        <meta name="msapplication-TileImage" content="https://github.com/nucerl/myPortfolio/blob/main/assets/snaps/light.png?raw=true" />    
+
+        <!-- HTML Meta Tags -->
+        <title>Alma´s Portafolio 👋</title>
+        <meta name="description" content="Data Scientist | Data Analyst | Machine Learning Engineer">
+
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2367QRTG56"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-2367QRTG56');
+        </script>
+
+    </head>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Antonio Martínez</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#paper" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme Change Buttons -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home" data-id="home">
+                <div class="home__container container grid">
+                    <section class="about section" id="home" data-id="home">
+                        <div class="home__data">
+                            <h1 class="section__title">Hi!, I am Antonio.</h1>
+                            <h3 class="home__subtitle">Statistician | Data Scientist | Data Analyst</h3>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                        <img src="assets/img/bell_curve.png" alt="Erol Bicer Nuclear Power Plants Summit Session" class="about__img2">
+                    </section>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about" data-id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Introduction</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/imagen-larga.jpg" alt="Erol Bicer Nuclear Power Plants Summit Session" class="about__img">
+
+
+                    <div class="about__data">
+                        <p class="about__description">Hello! I'm Luis, a passionate Statistics graduate with a keen interest in data science and machine learning. Known for my perseverance, love for challenges, and continuous pursuit of knowledge. Currently pursuing a Master's in Statistics and Data Science to further my professional growth. If you're looking for a dedicated and enthusiastic professional in the field of data science, I'm here to help!
+                            </p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">2+</span>
+                                <span class="about__info-name">Years' <br> Experience<br> In Statistical Analysis</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">1</span>
+                                <span class="about__info-name">Year of <br> Professional Experience</span>
+                            </div>
+                            <div>
+                                <span class="about__info-title">5+</span>
+                                <span class="about__info-name">Projects <br> Completed</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/CV-in.pdf" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills" data-id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">Technical Competence</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Programming language </h1>
+                                    <span class="skills__subtitle">Statistical analysis</span> 
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SNAP</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div> -->
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">R</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SAS</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Julia</h3>
+                                        <span class="skills__number">Beginner</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SQL</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML/CSS</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-vector-square skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Libraries</h1>
+                                    <span class="skills__subtitle">Most used libraries</span> 
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Keras</h3>
+                                        <span class="skills__number"> Python </span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tensorflow</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Scikit learn</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Numpy</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Pandas</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">SciPy</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Statsmodels</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Caret</h3>
+                                        <span class="skills__number">R</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tidyr</h3>
+                                        <span class="skills__number">R</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Dplyr</h3>
+                                        <span class="skills__number">R</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tidymodels</h3>
+                                        <span class="skills__number">R</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+
+                    <div>
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-arrow skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Data</h1>
+                                    <span class="skills__subtitle">Visualization, Analysis, Dashboard</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Plotly</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Matplotlib</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Seaborn</h3>
+                                        <span class="skills__number">Python</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Ggplot2</h3>
+                                        <span class="skills__number">R</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PowerBI/DAX</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Tableu</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Excel</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Looker Studio</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>  
+
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-code-branch skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__titles">Miscellaneous </h1>
+                                    <span class="skills__subtitle">Other skills</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Linux</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">GitHub</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MS Office</h3>
+                                        <span class="skills__number">Advanced</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Spark</h3>
+                                        <span class="skills__number">Intermediate</span> 
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percantage skills__sys-code"></span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>  
+
+                    </div> 
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">Academic and Professional Career</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                             <!--==================== QUALIFICATION  1 ====================-->
+                             <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__degree">B.Sc.</span>
+                                    <h3 class="qualification__tittle">Bachelor of Statistics</h3>
+                                    <span class="qualification__subtitle">Universidad Autónoma Chapingo</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - 2023
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                             <!--==================== QUALIFICATION  2 ====================-->
+                             <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__degree">M.Sc.</span>
+                                    <h3 class="qualification__tittle">Master in Statistics and Data Science</h3>
+                                    <span class="qualification__subtitle">Colegio de Postgraduados</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2024 - Currently
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION  1 ====================-->
+                            <div class="qualification__data">
+                               <div>
+                                   <h3 class="qualification__tittle">R and SAS Programming Advisor for Higher Education Students</h3>
+                                   <span class="qualification__subtitle">Universidad Autónoma Chapingo</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2021-2022
+                                   </div>
+                               </div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+                           </div>
+
+                            <!--==================== QUALIFICATION  2 ====================-->
+                            <div class="qualification__data">
+                               <div></div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+
+                               <div>
+                                   <h3 class="qualification__tittle">Data Science Tutor</h3>
+                                   <span class="qualification__subtitle">Coderhouse </span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2022 - 2023
+                                   </div>
+                               </div>
+
+                           </div>
+
+                            <!--==================== QUALIFICATION  3 ====================-->
+                            <div class="qualification__data">
+                               <div>
+                                   <h3 class="qualification__tittle">Risk Analyst</h3>
+                                   <span class="qualification__subtitle">SICREA Group</span>
+                                   <div class="qualification__calendar">
+                                       <i class="uil uil-calendar-alt"></i>
+                                       2023
+                                   </div>
+                               </div>
+                               <div>
+                                   <span class="qualification__rounder"></span>
+                                   <span class="qualification__line"></span>
+                               </div>
+                           </div>
+
+                           
+
+                       </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PROJECTS ====================-->
+
+
+
+
+            <!--==================== PAPERS ====================-->
+            <section class="paper section" id="paper" data-id="paper">
+                <h2 class="section__title">Projects</h2>
+                <span class="section__subtitle">Fulfilled Projects</span>
+                
+                <div class="paper__container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PAPER 1 ====================-->
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/Proyecto1.png" alt="Bayesian Logistic Regression for Rainfall Prediction" class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title"> Bayesian Model</h3>
+                                <p class="paper__description">This project focuses on applying Bayesian Logistic Regression to predict the probability of rain. Using historical data of relevant weather variables, the aim is to model and forecast the occurrence of rain, leveraging Bayesian inference principles to obtain accurate estimates and confidence intervals of the predictions.</p>
+                                <a href="https://github.com/AntonioM109/Data-Science-Projects/blob/main/Proyecto-Regresion_Logistica_Bayesiana_Con_R/Proyecto-Regresion_Logistica_Bayesiana.pdf" target="_blank" class="button button--flex button--small paper__button">
+                                    Read
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>  
+
+                        <!--==================== PAPER 2 ====================-->
+                        <div class="paper__content grid swiper-slide">
+                            <img src="assets/img/Proyecto2.png" alt="Small modular reactor containment pressure and radioactivity" class="paper__img">
+
+                            <div class="paper__dat">
+                                <h3 class="paper__title">Factorial Analysis</h3>
+                                <p class="paper__description">In this factorial analysis project, we explore the concept of rurality before proceeding with data analysis. Rurality, often subject to ambiguity, encompasses two main interpretations: one focusing on demographic and spatial aspects tied to agricultural production, and another emphasizing the social relationship between society and rural spaces. Our goal is to reduce variables through factorial analysis, aiming to gain deeper insights into our rural data.</p>
+                                <a href="https://github.com/AntonioM109/Data-Science-Projects/blob/main/Proyecto-Analisis_Factorial_Con_R/Proyecto-Analisis_Factorial.pdf" target="_blank" class="button button--flex button--small paper__button">
+                                    Read
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>                          
+
+                    </div>
+
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next">
+                            <i class="uil uil-angle-right-b swiper-paper-icon"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="uil uil-angle-left-b swiper-paper-icon"></i>
+                        </div>
+
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+
+
+            
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact" data-id="contact">
+                <div class="contact__container container grid">
+                    <div>
+                        <h2 class="section__title">Contact Me</h2>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+52 5610973495</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                
+                                <p><a class="contact__subtitle">tonihmz1020@gmail.com</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">México, Estado de México</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <a href="https://github.com/AntonioM109" target="_blank" class="footer__social2"> GitHub
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.linkedin.com/in/luis-antonio-mart%C3%ADnez-hern%C3%A1ndez-b640a9251?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQQOj724wQ5iQweHlpJoQew%3D%3D" target="_blank" class="footer__social2"> LinkedIn
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <a href="#" class="footer__title">Luis Antonio Martínez Hernández</a><br>
+                        <span class="footer__subtitle">Statistician</span>
+                    </div>
+
+                <p class="footer__copy">&#169; All rights reserved.</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
